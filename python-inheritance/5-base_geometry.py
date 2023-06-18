@@ -9,9 +9,6 @@ class BaseGeometry:
     A base class representing geometry.
     """
     def area(self):
-        """
-        Calculate the area of the geometric shape.
-        """
         raise Exception("area() is not implemented")
     """
     Validate the value as an integer.

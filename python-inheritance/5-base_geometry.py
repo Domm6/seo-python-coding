@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """
-Module: base_geometry
+This module defines the Square class that represents a square.
 """
-
 
 
 class BaseGeometry:

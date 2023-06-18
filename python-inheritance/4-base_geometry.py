@@ -14,6 +14,7 @@ class BaseGeometry:
         Calculate the area of the geometric shape.
 
         Raises:
-            Exception: When called, as the area() method is not implemented in the base class.
+            Exception: When called, as the area() method\
+            is not implemented in the base class.
         """
         raise Exception("area() is not implemented")

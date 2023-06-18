@@ -1,8 +1,7 @@
-#!/usr/bin/python3
 """
 This module defines the Rectangle class that represents a rectanlge.
 """
-
+#!/usr/bin/python3
 
 class Rectangle(BaseGeometry):
     """

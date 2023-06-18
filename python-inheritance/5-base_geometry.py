@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines the Square class that represents a square.
+This module defines the Geometry class.
 """
 
 

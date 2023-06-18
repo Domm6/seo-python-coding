@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
 This class serves as a foundation for defining geometric shapes and operations.
+
 """
+
 
 
 class BaseGeometry:

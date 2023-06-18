@@ -4,6 +4,7 @@ Module: base_geometry
 """
 
 
+
 class BaseGeometry:
     """
     A base class representing geometry.

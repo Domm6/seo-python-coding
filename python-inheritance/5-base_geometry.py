@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """
 Module: base_geometry
-
-This module defines the BaseGeometry class, which serves as a foundation for defining geometric shapes and operations.
 """
+
 
 class BaseGeometry:
     """

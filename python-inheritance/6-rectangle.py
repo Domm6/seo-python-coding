@@ -1,13 +1,11 @@
 """
 This module defines the Rectangle class that represents a rectanlge.
 """
-
 #!/usr/bin/python3
 
 """
 This module defines the Rectangle class that represents a rectanlge.
 """
-
 class Rectangle(BaseGeometry):
     """
     A class representing a rectangle.

@@ -23,7 +23,13 @@ class BaseGeometry:
         Validating value
         """
         if type(value) != int:
+            """"
+            raises error
+            """
             raise TypeError(f"{name} must be an integer")
         if value <= 0:
+            """
+            raises error
+            """
             raise ValueError(f"{name} must be greater than 0")
 

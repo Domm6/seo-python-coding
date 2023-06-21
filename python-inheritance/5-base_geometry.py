@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 """
-This is for the Geometry class.
+This class is for geometry
 """
 
 
 class BaseGeometry:
     """
     A base class representing geometry.
-
-    This class serves as a foundation for defining geometric shapes and operations.
     """
 
     def area(self):
@@ -16,7 +14,8 @@ class BaseGeometry:
         Calculate the area of the geometric shape.
 
         Raises:
-            Exception: When called, as the area() method is not implemented in the base class.
+            Exception: When called, as the area() method\
+            is not implemented in the base class.
         """
         raise Exception("area() is not implemented")
 

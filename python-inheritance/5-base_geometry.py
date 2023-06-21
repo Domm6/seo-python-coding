@@ -1,27 +1,20 @@
 #!/usr/bin/python3
 """
-This class is for geometry
+    Base Geometry class based on 4-base_geometry class. Has the area method
+    that raises an exception if the area methods isn't used. The class  method that validates integers.
 """
 
 
 class BaseGeometry:
-    """
-    A base class representing geometry.
-    """
+    """ Based on the empty base geometry class and 4-base_geometry. """
 
     def area(self):
-        """
-        Calculate the area of the geometric shape.
-
-        Raises:
-            Exception: When called, as the area() method\
-            is not implemented in the base class.
-        """
+        """ Public instance method  of the area, raises exception if the area isn't used. """
         raise Exception("area() is not implemented")
-        
+
     def integer_validator(self, name, value):
-        """Validating value"""
+        """ Function that validates the value """
         if type(value) != int:
-            raise TypeError(f"{name} must be an integer")
+            raise TypeError("{} must be an integer".format(name))
         if value <= 0:
-            raise ValueError(f"{name} must be greater than 0")
+            raise ValueError("{} must be greater than 0".format(name))

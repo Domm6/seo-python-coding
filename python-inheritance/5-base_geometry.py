@@ -5,9 +5,6 @@ This class is for geometry
 
 
 class BaseGeometry:
-    """
-    A base class representing geometry.
-    """
 
     def area(self):
         raise Exception("area() is not implemented")

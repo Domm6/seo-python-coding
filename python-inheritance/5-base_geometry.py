@@ -18,11 +18,11 @@ class BaseGeometry:
             is not implemented in the base class.
         """
         raise Exception("area() is not implemented")
-        """
-        Validate the value as an integer.
-        """
-        
-        def integer_validator(self, name, value):
+    """
+    Validate the value as an integer.
+    """   
+    
+    def integer_validator(self, name, value):
         """
         Validate the value as an integer.
 

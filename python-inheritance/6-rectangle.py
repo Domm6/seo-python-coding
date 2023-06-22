@@ -1,39 +1,34 @@
 #!/usr/bin/python3
 """
-    Base Geometry class based on 4-base_geometry class. Has the area method
-    that raises an exception if the area methods isn't used. The class\
-    method that validates integers.
+Rectangle class that inherits from BaseGeometry
 """
 
-
 class BaseGeometry:
-    """ Based on the empty base geometry class and 4-base_geometry. """
-
+    """ BaseGeometry class """
     def area(self):
-        """ Public instance method of the area, raises\
-        exception if the area isn't used. """
+        """ Raises an exception """
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-        """ Function that validates the value """
+        """ Validates the value """
         if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
 
-
 class Rectangle(BaseGeometry):
-    """ Represents a rectangle shape. """
-
+    """ Rectangle class """
     def __init__(self, width, height):
-        """ Initializes a Rectangle instance with width and height. """
-        self.__width = 0
-        self.__height = 0
-        self.integer_validator("width", width)
-        self.integer_validator("height", height)
+        """ Initializes the Rectangle class """
         self.__width = width
         self.__height = height
+        self.integer_validator("width", self.__width)
+        self.integer_validator("height", self.__height)
+
+    def __str__(self):
+        """ Returns a string representation of the Rectangle """
+        return "[Rectangle] {}/{}".format(self.__width, self.__height)
 
     def area(self):
-        """ Calculates and returns the area of the rectangle. """
+        """ Calculates the area of the Rectangle """
         return self.__width * self.__height

@@ -2,7 +2,7 @@
 """
 Rectangle class that inherits from BaseGeometry
 """
-BaseGeometry = __import__('5-base_geometry').BaseGeometry
+BaseGeometry = __import__('6-rectangle.py').BaseGeometry
 
 
 class Rectangle(BaseGeometry):

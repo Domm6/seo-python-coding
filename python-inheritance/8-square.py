@@ -3,10 +3,6 @@
 Module: <module_name>
 This module contains the implementation of classes for geometric shapes.
 
-Classes:
-- BaseGeometry: A base class for geometric shapes.
-- Rectangle: Represents a rectangle shape.
-- Square: Represents a square shape.
 """
 
 
